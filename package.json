@@ -1,46 +1,46 @@
 {
-    "name": "eslint-plugin-openui5",
-    "description": "ESLint plugins used by OpenUI5",
+  "name": "eslint-plugin-openui5",
+  "description": "ESLint plugins used by OpenUI5",
   "version": "0.1.0",
-    "author": {
-        "name": "SAP SE",
-        "url": "http://www.sap.com"
-    },
-    "contributors": [
-        {
-            "name": "Christoph Kraemer",
-            "email": "chr.kraemer@sap.com"
-        }
-    ],
-    "licenses": [
-        {
-            "type": "Apache 2.0",
-            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/SAP/eslint-plugin-openui5.git"
-    },
-    "homepage": "https://github.com/SAP/eslint-plugin-openui5",
-    "bugs": "https://github.com/SAP/eslint-plugin-openui5/issues/",
-    "main": "lib/index",
-    "scripts": {
-        "test": "mocha test --recursive --reporter dot",
-        "browserify": "browserify lib/index.js -o build/plugin.js -s plugin"
-    },
-    "keywords": [
-        "openui5",
-        "eslint",
-        "plugin",
-        "line endings"
-    ],
-    "devDependencies": {
-        "browserify": "^6.1.0",
-        "eslint-tester": "^0.2.1",
-        "mocha": "^1.21.5"
-    },
-    "peerDependencies": {
-        "eslint": ">=0.8.0"
+  "author": {
+    "name": "SAP SE",
+    "url": "http://www.sap.com"
+  },
+  "contributors": [
+    {
+      "name": "Christoph Kraemer",
+      "email": "chr.kraemer@sap.com"
     }
+  ],
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAP/eslint-plugin-openui5.git"
+  },
+  "homepage": "https://github.com/SAP/eslint-plugin-openui5",
+  "bugs": "https://github.com/SAP/eslint-plugin-openui5/issues/",
+  "main": "lib/index",
+  "scripts": {
+    "test": "mocha test --recursive --reporter dot",
+    "browserify": "browserify lib/index.js -o build/plugin.js -s plugin"
+  },
+  "keywords": [
+    "openui5",
+    "eslint",
+    "plugin",
+    "line endings"
+  ],
+  "devDependencies": {
+    "browserify": "^6.1.0",
+    "eslint-tester": "^0.2.1",
+    "mocha": "^1.21.5"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  }
 }

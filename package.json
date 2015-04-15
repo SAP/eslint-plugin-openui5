@@ -27,7 +27,7 @@
   "main": "lib/index",
   "scripts": {
     "test": "mocha test --recursive --reporter dot",
-    "browserify": "browserify lib/index.js -o build/plugin.js -s plugin"
+    "browserify": "mkdir build && browserify lib/index.js -o build/plugin.js -s plugin"
   },
   "keywords": [
     "openui5",
@@ -36,11 +36,9 @@
     "line endings"
   ],
   "devDependencies": {
-    "browserify": "^6.1.0",
-    "eslint-tester": "^0.2.1",
-    "mocha": "^1.21.5"
-  },
-  "peerDependencies": {
-    "eslint": ">=0.8.0"
+    "browserify": "^9.0.8",
+    "eslint": "^0.19.0",
+    "eslint-tester": "^0.6.0",
+    "mocha": "^2.2.4"
   }
 }

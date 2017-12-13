@@ -11,10 +11,10 @@ pipeline {
   }
 
   environment {
-	HTTP_PROXY = http://proxy:8080
-	HTTPS_PROXY = http://proxy:8080
-    FTP_PROXY = http://proxy:8080
-    NO_PROXY = localhost,127.0.0.1,.sap.corp
+    HTTP_PROXY = 'http://proxy:8080'
+    HTTPS_PROXY = 'http://proxy:8080'
+    FTP_PROXY = 'http://proxy:8080'
+    NO_PROXY = 'localhost,127.0.0.1,.sap.corp'
   }
 
   stages {

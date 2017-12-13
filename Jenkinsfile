@@ -18,7 +18,7 @@ pipeline {
   }
 
   stages {
-    stage('Pre Steps') {
+    stage("Pre Steps") {
 	  steps {
 	    //install npm dependencies
 		sh 'npm install'
@@ -41,7 +41,7 @@ pipeline {
 
   post{
 	failure {
-	  mail to: mat.osswald@sap.com, subject: 'tools.eslint-plugin-openui5 failed'
+	  mail to: 'mat.osswald@sap.com', subject: 'tools.eslint-plugin-openui5 failed'
 	}
   }
 }
